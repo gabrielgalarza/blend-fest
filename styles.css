@@ -1481,3 +1481,14 @@ body.is-rsvp-open { overflow: hidden; }
   cursor: pointer;
   z-index: 2;
 }
+
+/* Sweatpals registration widget, sandboxed in its own iframe so its script can't touch the host page */
+.register-embed { max-width: 640px; margin: 0 auto; }
+.register-embed__frame {
+  width: 100%;
+  height: 600px;
+  border: 0;
+  border-radius: 16px;
+  background: #0A0A0A;
+  display: block;
+}
