@@ -1523,3 +1523,6 @@ body.is-rsvp-open { overflow: hidden; }
   color: #fff; margin: 0 0 8px;
 }
 .zone__desc { font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.82); margin: 0; }
+
+/* Sing-along carousel: shift crop down the image so the crowd/singer sits higher in frame */
+#singalong .card__img { object-position: center 62%; }
