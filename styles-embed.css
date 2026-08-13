@@ -1365,3 +1365,14 @@
 }
 .ottff .ff-zone__desc { font-size: 13px; line-height: 1.4; color: rgba(255,255,255,.82); margin: 0; }
 .ottff #singalong .ff-card__img { object-position: center 62%; }
+.ottff .ff-arrival-list { list-style: none; margin: 6px 0 0; padding: 0; max-width: 760px; }
+.ottff .ff-arrival-list li {
+  position: relative; padding: 15px 0 15px 28px;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  color: rgba(255,255,255,.86); font-size: 16px; line-height: 1.5;
+}
+.ottff .ff-arrival-list li::before {
+  content: ""; position: absolute; left: 0; top: 23px;
+  width: 8px; height: 8px; border-radius: 999px; background: var(--yellow);
+}
+.ottff .ff-arrival-list li:last-child { border-bottom: 0; }
